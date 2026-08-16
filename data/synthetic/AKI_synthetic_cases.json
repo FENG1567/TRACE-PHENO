@@ -1,0 +1,10 @@
+{
+  "synthetic_only": true,
+  "clinical_validation": false,
+  "cases": [
+    {"case_id": "AKI-S1", "creatinine_mg_dl": [0.9, 1.1, 1.3], "times_h": [0, 12, 30], "hourly_urine_ml": [60, 60, 60, 60, 60, 60], "weight_kg": 70, "expected": "delta_48h"},
+    {"case_id": "AKI-S2", "creatinine_mg_dl": [1.0, 1.0, 1.6], "times_h": [0, 96, 150], "hourly_urine_ml": [80, 80, 80, 80, 80, 80], "weight_kg": 70, "expected": "ratio_7d"},
+    {"case_id": "AKI-S3", "creatinine_mg_dl": [1.0, 1.0, 1.0], "times_h": [0, 24, 48], "hourly_urine_ml": [20, 20, 20, 20, 20, 20], "weight_kg": 70, "expected": "urine_6h"},
+    {"case_id": "AKI-S4", "creatinine_mg_dl": [1.0, 1.0, 1.0], "times_h": [0, 24, 48], "hourly_urine_ml": [20, 20, 20, 20, 20, 20], "weight_kg": null, "expected": "missing_normalizer"}
+  ]
+}

@@ -1,0 +1,7 @@
+,P0,P1,P2,P3,P4,P5
+MIMIC,direct,direct,direct,direct,equivalent-to-P3,direct-exploratory
+eICU,adapted,partial,proxy,not-computable,not-computable,not-computable
+NWICU,direct,partial,direct,not-computable,not-computable,not-computable
+SICdb,partial,direct,not-computable,not-computable,not-computable,not-computable
+HiRID,not-identifiable,not-identifiable,not-identifiable,not-computable,not-identifiable,not-identifiable
+DATASUS,excluded,excluded,excluded,excluded,excluded,excluded

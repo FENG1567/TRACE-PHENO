@@ -1,0 +1,7 @@
+dataset,role,diagnosis,uln,pain_text,imaging,hospital_field,permitted_claim
+MIMIC,reference-set construction and downstream analysis,available,row-specific,partial,partial,no,exploratory conditional agreement and retrospective downstream analysis
+eICU,multi-hospital structured transportability,mixed ICD-9/10,proxy only,unvalidated partial,absent,yes,operational portability and phenotype-positive yield
+NWICU,structured replication,available,row-specific,absent,absent,limited,structured transportability
+SICdb,small-sample execution boundary,principal only,absent,absent,absent,no,computability boundary
+HiRID,negative capability,absent,partial,absent,absent,no,not identifiable
+DATASUS,excluded incomplete source,conditional incomplete,absent,absent,absent,regional,excluded by data gate

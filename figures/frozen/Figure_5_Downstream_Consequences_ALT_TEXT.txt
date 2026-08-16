@@ -1,0 +1,1 @@
+Panels show P0-P3 burden in the common 546,028-admission MIMIC cohort, set decomposition, mortality and ICU composition for principal versus secondary-position AP, paired-bootstrap mortality risk differences with the prespecified one-percentage-point materiality region, ICU use and length of stay, and eICU hospital reportability. Effects are descriptive and non-causal.

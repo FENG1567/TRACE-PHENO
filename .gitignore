@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+artifacts/*
+!artifacts/.gitkeep
+restricted_data/
+private_data/
+*.pem
+*.key
+.env
+

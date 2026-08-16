@@ -1,0 +1,8 @@
+code,definition
+D0,Source evidence domain absent
+D1,Field exists but clinical semantics differ
+D2,Unit or reference range is not comparable
+D3,Time anchor or window cannot be reproduced
+D4,Coding system or value set mismatch
+D5,Case mix or hospital recording heterogeneity
+D6,License access or engineering limitation

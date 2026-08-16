@@ -1,0 +1,6 @@
+﻿comparison,set_component,n,mortality_pct,icu_pct,los_median_days,source
+P0 vs P1,both/P1,1825,0.82,10.74,3.77,MIMIC_DOWNSTREAM.json decomposition.P0_vs_P1.both
+P0 vs P1,P0-only secondary-position,1441,7.49,31.92,5.94,MIMIC_DOWNSTREAM.json decomposition.P0_vs_P1.only_P0
+P0 vs P3,both,1291,2.79,22.93,4.99,MIMIC_DOWNSTREAM.json decomposition.P0_vs_P3.both
+P0 vs P3,P0-only,1975,4.41,18.23,4.0,MIMIC_DOWNSTREAM.json decomposition.P0_vs_P3.only_P0
+P0 vs P3,P3-only,21434,3.65,21.76,4.89,MIMIC_DOWNSTREAM.json decomposition.P0_vs_P3.only_P3

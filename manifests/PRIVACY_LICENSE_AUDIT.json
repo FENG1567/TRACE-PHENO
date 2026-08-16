@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-08-16T18:11:45.495387+00:00",
+  "scope": "repository public-release tree",
+  "privacy_findings": [],
+  "explicit_exclusions": [
+    "patient-level records and clinical narratives",
+    "patient, encounter, stay, and hospital identifier values",
+    "blinded adjudication review packets and raw ratings",
+    "credentials, API keys, and absolute local paths",
+    "controlled source database extracts"
+  ],
+  "license_boundary": "MIT covers original code/documentation only; source database terms remain controlling",
+  "hospital_reporting": "aggregate counts and distributions only; no hospital identifiers"
+}

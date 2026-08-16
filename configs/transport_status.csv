@@ -1,0 +1,7 @@
+status,meaning
+direct,Clinical rule unchanged; only approved syntax or unit mapping
+adapted,Explicit versioned change to mapping or operational rule
+partial,Only a subset of the requested semantics is available
+proxy,A declared substitute that is not semantically equivalent
+not_computable,Required evidence exists in principle but cannot be calculated reliably
+not_identifiable,The target construct cannot be distinguished from missing evidence

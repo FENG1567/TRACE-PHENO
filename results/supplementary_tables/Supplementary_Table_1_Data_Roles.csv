@@ -1,0 +1,7 @@
+﻿Database,N,Analysis unit,Role,AP evidence capability,ULN,Main limitation
+MIMIC,546028.0,Hospitalization,Reference (blinded two-clinician adjudication); downstream,pain partial; enzyme exact; imaging partial,row-level ULN,single-center/era; no downloaded ED module
+eICU,200859.0,ICU stay,structured transport; hospital heterogeneity,pain partial; enzyme proxy; imaging absent,no row-level ULN,—
+NWICU,61843.0,Hospitalization,second structured transport,pain absent; enzyme exact; imaging absent,row-level ULN,ICU selection; unit heterogeneity
+SICdb,27350.0,ICU stay,small-sample boundary,pain absent; enzyme partial; imaging absent,unavailable,128 coded cases; RAR CRC incomplete
+HiRID,33905.0,Patient,negative capability,diagnosis absent,not applicable,AP not identifiable
+DATASUS,,Hospitalization,excluded,administrative only,not applicable,gate incomplete (16635/48171 complete)

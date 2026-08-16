@@ -1,0 +1,4 @@
+# Versions used for the local verification recorded in manifests/REPRODUCTION_REPORT.json
+numpy==2.5.2
+pandas==3.0.5
+matplotlib==3.11.1

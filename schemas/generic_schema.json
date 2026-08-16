@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/trace-pheno/generic-schema-v1.json",
+  "title": "TRACE-PHENO generic audit objects",
+  "version": "1.0.0",
+  "description": "Disease-agnostic objects for evidence-aware computable phenotype auditing.",
+  "$defs": {
+    "EvidenceAssertion": {
+      "type": "object",
+      "required": ["domain", "concept", "polarity", "temporality", "source", "availability", "provenance"],
+      "properties": {
+        "domain": {"type": "string"},
+        "concept": {"type": "string"},
+        "polarity": {"enum": ["positive", "negative", "uncertain", "unknown"]},
+        "temporality": {"enum": ["current", "historical", "future", "unknown"]},
+        "certainty": {"enum": ["certain", "probable", "possible", "unknown"]},
+        "source": {"type": "string"},
+        "event_time": {"type": ["string", "number", "null"]},
+        "window": {"type": ["string", "null"]},
+        "value": {"type": ["number", "string", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "reference_upper": {"type": ["number", "null"]},
+        "availability": {"$ref": "#/$defs/AvailabilityStatus"},
+        "provenance": {"type": "string", "minLength": 1}
+      }
+    },
+    "AvailabilityStatus": {
+      "enum": ["available", "partial", "proxy", "absent", "not_computable", "not_identifiable", "unknown"]
+    },
+    "ReferenceLabel": {
+      "type": "object",
+      "required": ["label", "reference_type", "version"],
+      "properties": {
+        "label": {"enum": ["definitive", "probable", "non_case", "indeterminate"]},
+        "reference_type": {"type": "string"},
+        "version": {"type": "string"}
+      }
+    },
+    "PhenotypeDefinition": {
+      "type": "object",
+      "required": ["name", "version", "rule", "intended_use"],
+      "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string"},
+        "rule": {"type": "object"},
+        "intended_use": {"type": "string"},
+        "prohibited_use": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "ExecutionResult": {
+      "type": "object",
+      "required": ["phenotype", "status", "version"],
+      "properties": {
+        "phenotype": {"type": "string"},
+        "status": {"enum": ["positive", "negative", "not_computable", "not_identifiable"]},
+        "score": {"type": ["number", "null"]},
+        "version": {"type": "string"},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "MigrationEvent": {
+      "type": "object",
+      "required": ["source", "target", "status", "failure_codes"],
+      "properties": {
+        "source": {"type": "string"},
+        "target": {"type": "string"},
+        "status": {"enum": ["direct", "adapted", "partial", "proxy", "not_computable", "not_identifiable"]},
+        "failure_codes": {"type": "array", "items": {"enum": ["D0", "D1", "D2", "D3", "D4", "D5", "D6"]}}
+      }
+    },
+    "DownstreamImpact": {
+      "type": "object",
+      "required": ["comparison", "outcome", "estimand", "estimate"],
+      "properties": {
+        "comparison": {"type": "string"},
+        "outcome": {"type": "string"},
+        "estimand": {"type": "string"},
+        "estimate": {"type": "number"},
+        "ci_lower": {"type": ["number", "null"]},
+        "ci_upper": {"type": ["number", "null"]}
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the archived software release."
+title: "TRACE-PHENO public reproducibility package"
+type: software
+version: 0.1.0
+date-released: 2026-08-16
+authors:
+  - name: "TRACE-PHENO contributors"
+repository-code: "https://github.com/FENG1567/TRACE-PHENO"
+abstract: "Code, specifications, synthetic data, aggregate results, and figures for an auditable computable-phenotyping study illustrated with acute pancreatitis."
+license: MIT

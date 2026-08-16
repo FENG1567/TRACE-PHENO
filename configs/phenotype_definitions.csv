@@ -1,0 +1,7 @@
+phenotype,version,definition,intended_use,not_for,limitations
+P0,1.0,Any-position acute-pancreatitis ICD-9 577.0 or ICD-10 K85*,Administrative cohort construction,Clinical diagnosis or prevalence estimation,Misses uncoded disease and includes secondary-diagnosis contexts
+P1,1.0,Principal/primary acute-pancreatitis ICD code,Principal-diagnosis cohort construction,Clinical diagnosis or prevalence estimation,Diagnosis-position semantics vary by database
+P2,1.0,P0 plus pancreatic enzyme at least 3 times the row-specific upper reference limit,High-specificity evidence-enriched cohort,Databases without row-specific ULN,Low coverage and depends on unit/reference-range quality
+P3,1.1,At least two positive Atlanta-like evidence domains among pain enzyme and imaging,Transparent evidence-rule audit,Independent clinical validation,Rule-concordant with the adjudicated reference construction
+P4,1.0,Transparent weighted score 0.35 pain + 0.35 enzyme + 0.30 imaging at threshold 0.40,Equivalence demonstration,Independent comparison with P3,Logically equivalent to P3 on complete binary three-domain inputs
+P5,1.0,Regularized logistic regression using seven frozen evidence features,Exploratory modeling demonstration,Clinical deployment or stable ranking,Small development set and precision-limited evaluation

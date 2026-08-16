@@ -1,0 +1,21 @@
+case_id,scenario,icd_code,icd_position,enzyme_value,enzyme_unit,ref_upper,text_pain,text_negation,imaging,nc_reason,expected
+S-AP-01,primary_icd,K85.0,primary,,,60,,,,"",P0_pos_P1_pos
+S-AP-02,secondary_icd,K85.9,secondary,,,60,,,,"",P0_pos_P1_neg
+S-AP-03,icd_neg_strong_signal,,none,200,IU/L,60,abdominal pain,,positive,,P0_neg_P3_pos
+S-AP-04,exact_3xULN,K85.9,any,180,IU/L,60,abdominal pain,,,,"P2_pos"
+S-AP-05,boundary_below_3x,577.0,any,179.9,IU/L,60,,,,"","P2_neg"
+S-AP-06,scientific_notation,K85.8,any,1.8e2,IU/L,60,abdominal pain,,,,"P2_pos_parser"
+S-AP-07,missing_uln,K85.9,any,500,IU/L,,,abdominal pain,,,"enzyme_unmappable"
+S-AP-08,pain_negation,K85.9,any,,,60,abdominal pain,no abdominal pain,,,"pain_domain_neg"
+S-AP-09,template_guidance,,none,,,60,increasing abdominal pain,,"",,"template_not_current"
+S-AP-10,imaging_negation,K85.9,any,,,60,,,no pancreatitis,,"imaging_domain_neg"
+S-AP-11,post_ercp,K85.9,any,250,IU/L,60,abdominal pain,,,,"P2_pos_ercp_context"
+S-AP-12,past_history_ap,,none,,,60,history of pancreatitis,,,,"hx_only_not_current"
+S-AP-13,rad_dose_5770,,none,,,60,,,,"not_icd_context",P0_neg
+S-AP-14,empty_packet,,none,,,60,,,,"no_evidence",indeterminate
+S-AP-15,not_identifiable_hi rid,,none,,,60,,,,"no_diagnosis_domain",not_identifiable
+S-AP-16,primary_and_enzyme,K85.1,primary,300,IU/L,60,abdominal pain,,,,"P1_P2_pos"
+S-AP-17,renal_related_enzyme,K85.9,any,250,IU/L,60,,,,"renal_context",enzyme_pos_no_pain
+S-AP-18,chronic_pancreatitis,K86.0,any,,,60,abdominal pain,,,,"chronic_not_acute",P0_neg
+S-AP-19,iu_l_variant,K85.9,any,200,U/L,60,abdominal pain,,,,"P2_pos_unit_variant"
+S-AP-20,multiple_measures,K85.9,any,90,IU/L,60,abdominal pain,,,,"first_below_second_above"

@@ -1,0 +1,11 @@
+{
+  "card_type": "phenotype",
+  "phenotype": "P3",
+  "version": "1.1",
+  "target_construct": "acute pancreatitis",
+  "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
+  "definition": "At least two positive Atlanta-like evidence domains among pain enzyme and imaging",
+  "intended_use": "Transparent evidence-rule audit",
+  "not_for": "Independent clinical validation",
+  "known_limitations": "Rule-concordant with the adjudicated reference construction"
+}

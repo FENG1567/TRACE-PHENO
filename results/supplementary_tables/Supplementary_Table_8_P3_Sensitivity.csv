@@ -1,0 +1,17 @@
+﻿variant,metric,estimate,ci_lower,ci_upper,eligible_n,positive_n,interpretation
+P3,sensitivity,0.993,0.965,1.0,86,20,primary frozen implementation
+P3,specificity,0.959,0.9,1.0,86,20,primary frozen implementation
+P3,ppv,0.732,0.384,1.0,86,20,primary frozen implementation
+P3,npv,0.999,0.997,1.0,86,20,primary frozen implementation
+P3_conflict_resolved,sensitivity,0.978,0.922,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_conflict_resolved,specificity,1.0,1.0,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_conflict_resolved,ppv,1.0,1.0,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_conflict_resolved,npv,0.998,0.994,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_text,sensitivity,0.393,0.032,0.836,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_text,specificity,1.0,1.0,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_text,ppv,1.0,1.0,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_text,npv,0.936,0.868,0.992,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_imaging,sensitivity,0.415,0.057,0.863,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_imaging,specificity,1.0,1.0,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_imaging,ppv,1.0,1.0,1.0,86,20,sensitivity analysis; not a replacement primary definition
+P3_no_imaging,npv,0.938,0.872,0.994,86,20,sensitivity analysis; not a replacement primary definition

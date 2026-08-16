@@ -1,0 +1,11 @@
+{
+  "card_type": "phenotype",
+  "phenotype": "P4",
+  "version": "1.0",
+  "target_construct": "acute pancreatitis",
+  "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
+  "definition": "Transparent weighted score 0.35 pain + 0.35 enzyme + 0.30 imaging at threshold 0.40",
+  "intended_use": "Equivalence demonstration",
+  "not_for": "Independent comparison with P3",
+  "known_limitations": "Logically equivalent to P3 on complete binary three-domain inputs"
+}

@@ -1,0 +1,11 @@
+{
+  "card_type": "phenotype",
+  "phenotype": "P5",
+  "version": "1.0",
+  "target_construct": "acute pancreatitis",
+  "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
+  "definition": "Regularized logistic regression using seven frozen evidence features",
+  "intended_use": "Exploratory modeling demonstration",
+  "not_for": "Clinical deployment or stable ranking",
+  "known_limitations": "Small development set and precision-limited evaluation"
+}

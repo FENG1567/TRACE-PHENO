@@ -1,0 +1,1 @@
+Four-panel plot of design-weighted sensitivity for P0-P3 under strict, probable-positive, probable-negative, all-uncertain-positive, and all-uncertain-negative reference policies. The results show strong dependence on uncertain-label handling and are not alternative clinical truth estimates.

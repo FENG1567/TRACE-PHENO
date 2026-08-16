@@ -1,0 +1,1 @@
+Four panels show the measurement pathway, database roles, MIMIC patient-level representative-hospitalization sampling, and corrected stratum-specific validation weights. The strict validation subset contains 86 encounters and 20 definitive positives.

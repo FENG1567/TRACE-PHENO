@@ -1,0 +1,1 @@
+Six panels show the three-domain AP construct, EvidenceAssertion fields, final label distribution, full versus early identifiability, and audit findings.

@@ -1,0 +1,16 @@
+﻿split,policy,eligible_n,positive_n,negative_n,definitive_AP_n,probable_AP_n,non_AP_n,indeterminate_n
+development,strict,218,39,179,39,144,179,198
+development,probable_positive,362,183,179,39,144,179,198
+development,probable_negative,362,39,323,39,144,179,198
+development,all_uncertain_positive,560,381,179,39,144,179,198
+development,all_uncertain_negative,560,39,521,39,144,179,198
+validation,strict,86,20,66,20,57,66,97
+validation,probable_positive,143,77,66,20,57,66,97
+validation,probable_negative,143,20,123,20,57,66,97
+validation,all_uncertain_positive,240,174,66,20,57,66,97
+validation,all_uncertain_negative,240,20,220,20,57,66,97
+formal_total,strict,304,59,245,59,201,245,295
+formal_total,probable_positive,505,260,245,59,201,245,295
+formal_total,probable_negative,505,59,446,59,201,245,295
+formal_total,all_uncertain_positive,800,555,245,59,201,245,295
+formal_total,all_uncertain_negative,800,59,741,59,201,245,295

@@ -1,0 +1,6 @@
+﻿stratum,patient_pool_N,formal_sample_n,development_n,validation_n,formal_selection_probability,formal_design_weight,validation_selection_probability,validation_design_weight,sampling_unit,analysis_record
+S1_A1,1653,100,70,30,0.060496067755595885,16.53,0.018148820326678767,55.1,patient,one prespecified representative hospitalization per patient
+S1_A2,722,100,70,30,0.13850415512465375,7.22,0.04155124653739612,24.066666666666666,patient,one prespecified representative hospitalization per patient
+S2,80982,200,140,60,0.0024696846212738633,404.91,0.000740905386382159,1349.7,patient,one prespecified representative hospitalization per patient
+S3,56132,200,140,60,0.003563030000712606,280.66,0.0010689090002137817,935.5333333333333,patient,one prespecified representative hospitalization per patient
+S4,83963,200,140,60,0.0023820015959410694,419.815,0.0007146004787823208,1399.3833333333334,patient,one prespecified representative hospitalization per patient
