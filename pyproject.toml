@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trace-pheno"
-version = "0.1.0"
+version = "0.2.0"
 description = "Public reproducibility package for auditable computable phenotyping"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -13,7 +13,10 @@ authors = [{name = "TRACE-PHENO contributors"}]
 dependencies = [
   "numpy>=2.0,<3",
   "pandas>=2.2,<4",
-  "matplotlib>=3.8,<4"
+  "matplotlib>=3.8,<4",
+  "Pillow>=10,<14",
+  "scipy>=1.11,<2",
+  "jsonschema>=4.20,<5"
 ]
 
 [project.scripts]

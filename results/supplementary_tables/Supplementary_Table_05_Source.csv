@@ -1,0 +1,7 @@
+﻿phenotype,shared pain rule,shared enzyme rule,shared imaging rule,shared threshold,shared time window,interpretation
+P0,No,No,No,No,No,Low; source diagnosis context may be visible
+P1,No,No,No,No,No,Low; source diagnosis context may be visible
+P2,No,Yes,No,Yes,Yes,Partial circularity
+P3,Yes,Yes,Yes,Yes,Yes,Constructive circularity; rule-concordance only
+P4,Yes,Yes,Yes,Yes,Yes,Same as P3 and logically equivalent
+P5,Yes,Yes,Yes,Yes,Yes,Feature-level circularity plus small development set

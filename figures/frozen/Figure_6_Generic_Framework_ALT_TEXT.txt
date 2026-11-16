@@ -1,1 +1,1 @@
-Panels show the generic TRACE-PHENO objects, canonical rule equivalence that detected P3 and P4 as the same logic, adapter and migration contracts, AP and synthetic AKI module reuse of the same core schema, and aggregate result-to-claim lineage.
+Two panels show the application workflow and distinguish the clinical acute-pancreatitis application from the synthetic acute-kidney-injury software example.

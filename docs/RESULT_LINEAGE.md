@@ -1,10 +1,9 @@
 # Result lineage
 
-The public result chain is:
+The released clinical aggregates are in `data/aggregate/revision/`. The registry reads strict design-weighted P0–P2 estimates from `BENCHMARK_METRICS.csv`, their raw and weighted confusion counts from `BENCHMARK_CONFUSION.csv`, P3 concordance from `P3_RULE_CONCORDANCE.csv`, and the four downstream contrasts from `MIMIC_PAIRED_DOWNSTREAM_BOOTSTRAP.csv`. Every registry source path is repository-relative; a fragment identifies the selected row.
 
-`authorized source data → restricted source adapters → restricted row-level evidence assertions → aggregate analysis outputs → manuscript result registry → tables and figure source data → rendered figures`
+The four main-table CSVs follow the current manuscript order: phenotype definitions, database capabilities, conditional agreement, and downstream consequences. Supplementary source tables are numbered 01–14. Their values are copied from the revision package, and main-table cells were read from the actual final English DOCX using WPS.
 
-Only the final aggregate layers are included here. The registry records the estimand, metric, numerator and denominator semantics, confidence-interval method, weighting method, source artifact, and analysis status. No metric should be inferred from row position or an unlabeled `estimate` field.
+Contrast intervals preserve repeated patient draws. Zero-width boundary intervals use the method recorded in the current aggregate CSVs. P0 ICU use is 656/3,266 (20.1%), consistent with the preserved disjoint cohort summaries.
 
-The revision-2 aggregate analysis corrected the target frame for formal-sample design weights: one representative hospitalization per sampled patient, with stratum weights derived from patient pools. It also rebuilt the eligible set separately for each label-boundary policy. The original analysis artifacts remain outside this public release; the correction is documented in `data/aggregate/benchmark/WEIGHT_CORRECTION_AUDIT.json`.
-
+The registry schema describes CSV strings as returned by `csv.DictReader`. Estimate and interval fields use numeric strings; empty intervals are allowed for summaries without confidence intervals. A contrast denominator retains both cohort sizes as `B=...; A=...`. The validator checks actual registry rows against this schema.

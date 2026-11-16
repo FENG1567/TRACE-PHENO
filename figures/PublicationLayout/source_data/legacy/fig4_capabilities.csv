@@ -1,0 +1,6 @@
+database,diagnosis,diagnosis_position,ULN,enzyme_unit,pain_semantics,imaging,time_anchor
+MIMIC,exact,exact,exact,exact,partial,exact,exact
+eICU,exact,partial,proxy,compatible,partial,absent,exact
+NWICU,exact,partial,exact,compatible,absent,absent,partial
+SICdb,partial,exact,absent,compatible,absent,absent,partial
+HiRID,absent,absent,unknown,unknown,absent,absent,partial

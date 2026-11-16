@@ -1,18 +1,7 @@
-# Reproducibility levels
+# Public reproduction
 
-TRACE-PHENO uses three explicit reproduction levels.
+Run `python scripts/reproduce_public.py` followed by `python scripts/verify_checksums.py` in the environment described by the root README. Public inputs are synthetic examples and aggregate results. The script builds all nine figure sets, validates the result registry and checks P0 ICU use against two independently preserved cohort partitions.
 
-## Level 1: public executable reproduction
+`figures/frozen/` contains the final submission exports. Figure code and all 13 CSV inputs are in `figures/PublicationLayout/`. Rebuilding uses only those bundled inputs; no private fallback directory is consulted. The plot geometry and bold 18-point panel letters are retained from the submission version. Font fallback is described in the README.
 
-Anyone can run the synthetic cases, parser boundaries, schema checks, P3/P4 equivalence, AKI reuse example, card generation, aggregate figure generation, and privacy scan.
-
-## Level 2: aggregate numerical verification
-
-Readers can trace each manuscript estimate to the public result registry, aggregate tables, and figure source rows. This level verifies reporting and visualization but cannot independently reconstruct patient-clustered bootstrap samples.
-
-## Level 3: credentialled clinical reconstruction
-
-Authorized researchers can reconstruct source cohorts and rerun the row-level analyses inside their own controlled environments. Database access, local mappings, and restricted derived files are prerequisites.
-
-These levels are intentionally not conflated. Public code availability does not imply public patient-level data, and successful execution does not imply clinical validation.
-
+The synthetic AP parser is an illustrative example rather than the original clinical text extractor. The restricted numerical scripts are included, but their required patient-level inputs are not. See `CREDENTIALLED_REPRODUCTION.md` for that separate workflow.

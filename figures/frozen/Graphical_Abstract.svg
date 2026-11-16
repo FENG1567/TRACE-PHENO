@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="360pt" viewBox="0 0 547.2 360" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 360 
+L 547.2 360 
+L 547.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 31.893216 173.564 
+L 244.442784 173.564 
+Q 246.28304 173.564 246.28304 171.7176 
+L 246.28304 113.0944 
+Q 246.28304 111.248 244.442784 111.248 
+L 31.893216 111.248 
+Q 30.05296 111.248 30.05296 113.0944 
+L 30.05296 171.7176 
+Q 30.05296 173.564 31.893216 173.564 
+z
+" clip-path="url(#p063088d2f9)" style="fill: #eaf2f8; stroke: #4c78a8; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 31.893216 231.264 
+L 244.442784 231.264 
+Q 246.28304 231.264 246.28304 229.4176 
+L 246.28304 186.9504 
+Q 246.28304 185.104 244.442784 185.104 
+L 31.893216 185.104 
+Q 30.05296 185.104 30.05296 186.9504 
+L 30.05296 229.4176 
+Q 30.05296 231.264 31.893216 231.264 
+z
+" clip-path="url(#p063088d2f9)" style="fill: #f7f9fb; stroke: #718096; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 31.893216 309.736 
+L 244.442784 309.736 
+Q 246.28304 309.736 246.28304 307.8896 
+L 246.28304 251.5744 
+Q 246.28304 249.728 244.442784 249.728 
+L 31.893216 249.728 
+Q 30.05296 249.728 30.05296 251.5744 
+L 30.05296 307.8896 
+Q 30.05296 309.736 31.893216 309.736 
+z
+" clip-path="url(#p063088d2f9)" style="fill: #fff4e6; stroke: #e69f00; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Arial'; fill: #18212b" transform="translate(88.566305 129.364112)">At least 2 of 3 findings</text>
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Arial'; fill: #18212b" transform="translate(67.872352 139.620087)">Typical pain · enzymes ≥3× ULN</text>
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Arial'; fill: #18212b" transform="translate(88.038094 149.961796)">Characteristic imaging</text>
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Arial'; fill: #18212b" transform="translate(79.530047 160.321669)">ULN: upper limit of normal</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #18212b" transform="translate(55.571437 206.3238)">Five contexts: MIMIC · eICU · NWICU</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #18212b" transform="translate(107.295969 216.841896)">SICdb · HiRID</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #18212b" transform="translate(46.851477 276.886175)">P0 any-position code · P1 principal code</text>
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #18212b" transform="translate(69.823664 287.406497)">P2 P0 + enzyme ≥3× local ULN</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 300.456896 173.564 
+L 402.591104 173.564 
+Q 404.43136 173.564 404.43136 171.7176 
+L 404.43136 113.0944 
+Q 404.43136 111.248 402.591104 111.248 
+L 300.456896 111.248 
+Q 298.61664 111.248 298.61664 113.0944 
+L 298.61664 171.7176 
+Q 298.61664 173.564 300.456896 173.564 
+z
+" clip-path="url(#p797894d6e7)" style="fill: #eaf2f8; stroke: #0072b2; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 415.472896 173.564 
+L 517.607104 173.564 
+Q 519.44736 173.564 519.44736 171.7176 
+L 519.44736 113.0944 
+Q 519.44736 111.248 517.607104 111.248 
+L 415.472896 111.248 
+Q 413.63264 111.248 413.63264 113.0944 
+L 413.63264 171.7176 
+Q 413.63264 173.564 415.472896 173.564 
+z
+" clip-path="url(#p797894d6e7)" style="fill: #f7f9fb; stroke: #56b4e9; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 305.057536 309.736 
+L 513.006464 309.736 
+Q 514.84672 309.736 514.84672 307.8896 
+L 514.84672 210.0304 
+Q 514.84672 208.184 513.006464 208.184 
+L 305.057536 208.184 
+Q 303.21728 208.184 303.21728 210.0304 
+L 303.21728 307.8896 
+Q 303.21728 309.736 305.057536 309.736 
+z
+" clip-path="url(#p797894d6e7)" style="fill: #fff4e6; stroke: #d55e00; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(317.532156 129.461941)">P0 any position</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(313.428812 139.883637)">3,266 admissions</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(327.747031 150.750238)">123 deaths</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(317.777969 160.068652)">3.77% mortality</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(421.30475 129.522316)">P1 principal position</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(428.444812 139.883637)">1,825 admissions</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(445.321062 150.750238)">15 deaths</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Arial'; fill: #18212b" transform="translate(432.793969 160.068652)">0.82% mortality</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial'; fill: #18212b" transform="translate(340.305227 250.728072)">Observed mortality difference</text>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial'; fill: #18212b" transform="translate(334.508719 261.425164)">P1 − P0: -2.94 percentage points</text>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'Arial'; fill: #18212b" transform="translate(362.401523 273.093014)">95% CI -3.62 to -2.30</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Arial'; text-anchor: start; fill: #184e77" x="21.888" y="15.228369" transform="rotate(-0 21.888 15.228369)">TRACE-PHENO</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; text-anchor: end; fill: #4d5964" x="525.312" y="12.31626" transform="rotate(-0 525.312 12.31626)">Acute pancreatitis (AP)</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #263238" x="21.888" y="34.644287" transform="rotate(-0 21.888 34.644287)">Evidence availability, phenotype rules and downstream conclusions</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #34495e" x="21.888" y="50.11626" transform="rotate(-0 21.888 50.11626)">Cohort size and observed mortality differ by diagnosis position</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'Arial'; text-anchor: start" x="19.152" y="82.504492" transform="rotate(-0 19.152 82.504492)">A</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial'; text-anchor: start" x="43.152" y="82.580015" transform="rotate(-0 43.152 82.580015)">Evidence and definitions</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'Arial'; text-anchor: start" x="290.016" y="82.504492" transform="rotate(-0 290.016 82.504492)">B</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial'; text-anchor: start" x="314.016" y="81.536577" transform="rotate(-0 314.016 81.536577)">Diagnosis position selects different cohorts</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p063088d2f9">
+   <rect x="23.152" y="97.4" width="230.032" height="230.8"/>
+  </clipPath>
+  <clipPath id="p797894d6e7">
+   <rect x="294.016" y="97.4" width="230.032" height="230.8"/>
+  </clipPath>
+ </defs>
+</svg>

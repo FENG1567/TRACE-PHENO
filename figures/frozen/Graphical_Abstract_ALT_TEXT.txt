@@ -1,0 +1,1 @@
+The acute-pancreatitis example links evidence availability and diagnosis position to cohort selection and observed outcomes. It contrasts any-position and principal-position cohorts and summarizes cross-database evidence availability.

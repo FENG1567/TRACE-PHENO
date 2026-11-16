@@ -1,0 +1,6 @@
+policy,eligible_n,positive_n,negative_n
+strict,86,20,66
+probable_positive,143,77,66
+probable_negative,143,20,123
+all_uncertain_positive,240,174,66
+all_uncertain_negative,240,20,220

@@ -4,8 +4,8 @@
   "version": "1.0",
   "target_construct": "acute pancreatitis",
   "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
-  "definition": "P0 plus pancreatic enzyme at least 3 times the row-specific upper reference limit",
-  "intended_use": "High-specificity evidence-enriched cohort",
+  "definition": "P0 AND at least one lipase/amylase result from -24 to +48 h relative to admission with valuenum/ref_range_upper >=3.0",
+  "intended_use": "Secondary high-specificity implementation",
   "not_for": "Databases without row-specific ULN",
   "known_limitations": "Low coverage and depends on unit/reference-range quality"
 }

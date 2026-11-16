@@ -1,1 +1,1 @@
-Panels show P0-P3 comparator roles, corrected patient-frame design-weighted sensitivity and specificity with 95% stratified patient-bootstrap intervals, sensitivity across five explicit reference-label policies, P3 domain/conflict stress tests, and interpretation constraints.
+Two panels show design-weighted P0–P2 sensitivity and specificity under the strict reference policy and sensitivity under the five reference-label policies.

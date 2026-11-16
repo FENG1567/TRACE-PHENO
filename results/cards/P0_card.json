@@ -4,8 +4,8 @@
   "version": "1.0",
   "target_construct": "acute pancreatitis",
   "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
-  "definition": "Any-position acute-pancreatitis ICD-9 577.0 or ICD-10 K85*",
-  "intended_use": "Administrative cohort construction",
+  "definition": "ICD-9-CM 577.0 OR normalized ICD-10-CM code beginning K85 in any diagnosis position",
+  "intended_use": "Primary transparent coding comparator",
   "not_for": "Clinical diagnosis or prevalence estimation",
   "known_limitations": "Misses uncoded disease and includes secondary-diagnosis contexts"
 }

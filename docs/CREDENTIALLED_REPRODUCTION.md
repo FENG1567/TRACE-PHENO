@@ -1,24 +1,19 @@
-# Credentialled full reproduction
+# Authorized numerical reproduction
 
-Full clinical reproduction requires authorized access to each source database and a local restricted workspace. Do not copy protected data into this repository or a GitHub Actions runner.
+The scripts in `Reproducibility/` stage inputs from the original frozen TRACE-PHENO project and rerun the reference, transport and paired downstream analyses. Run a copy of this directory in an authorized workspace outside the public Git checkout. Keep every staged row-level file there.
 
-## Required restricted inputs
+The source project must contain `03_reference_standard`, `05_transport`, `06_downstream` and the source audit scripts under `code/audit`. Reference staging uses `DEV_VALIDATION_SPLIT.csv`, `REFERENCE_LABEL_SET.csv`, `PACKET_MANIFEST.csv`, `SAMPLING_WEIGHTS.json` and `CANDIDATE_FRAME.csv`. Transport/downstream JSON inputs are read from the corresponding frozen source directories; the exact filenames are in `stage_inputs.py`.
 
-The input contract is described in `schemas/credentialed_validation_inputs.schema.json`. The revision-2 analysis uses:
+```bash
+cd /path/to/authorized/workspace/Reproducibility
+python stage_inputs.py --project-root /path/to/authorized/trace_pheno
+python run_server_analysis.py
+```
 
-1. a reference-set table with a non-public case key and frozen reference label;
-2. phenotype predictions derived from authorized source records;
-3. a patient-level development/validation split;
-4. the sampling frame and stratum-specific pool and sample counts.
+`TRACE_PHENO_PROJECT_ROOT` may replace `--project-root`. Staging validates the source layout before writing `inputs/`. It produces four analysis files: `validation_inputs.csv`, `sampling_design_inputs.csv`, `mimic_patient_cluster_counts.csv` and `aggregate_context_inputs.json`.
 
-## Recommended route
+The numerical output is written to `outputs/`. Reference estimates use 5,000 stratified patient-bootstrap replicates (seed 20260816); downstream contrasts use 2,000 paired patient-cluster replicates (seed 20260815), preserving repeated draws. The exact script versions are copied from this package. Compare eligible counts, estimates, interval endpoints and interval methods with `data/aggregate/revision/`; regenerated file hashes can differ with runtime or serialization changes.
 
-1. Obtain the required credential and complete the data-use training for each database.
-2. Create a restricted directory outside the Git repository.
-3. Rebuild source-specific mappings from `results/supplementary_tables/Supplementary_Table_9_Field_Level_Mapping.csv`.
-4. Keep all row-level intermediates in the restricted environment.
-5. Implement or obtain the restricted analysis workflow within the authorized environment, using the published input contract and aggregate output definitions.
-6. Move only the aggregate outputs through the privacy scan before public release.
-7. Compare the resulting SHA-256 values and numerical tolerances with the public aggregate artifacts.
+The source staging step uses an existing frozen project, not raw databases alone. Public aggregate reproduction and synthetic examples do not recreate clinical adjudication or original clinical-text extraction. Do not place their inputs in a public repository.
 
-The restricted row-level analysis script is not included in this public release. The public repository provides the input contract, aggregate outputs, and reporting definitions needed to inspect the analysis boundary, but it cannot independently reconstruct the patient-level bootstrap or reference-set analyses.
+The numerical source run used Python 3.12.3, NumPy 1.26.4 and SciPy 1.11.4. `Reproducibility/requirements-recorded.txt` records those numerical-library versions for a separate authorized environment. The root dependency lock describes public-package and figure verification; it is not evidence of a new patient-level analysis.

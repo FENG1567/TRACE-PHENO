@@ -15,3 +15,8 @@ private_data/
 *.key
 .env
 
+
+Reproducibility/inputs/
+Reproducibility/outputs/
+.venv/
+*.egg-info/

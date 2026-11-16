@@ -1,0 +1,6 @@
+Database,N,Analysis unit,Role,AP evidence capability,ULN,Main limitation
+MIMIC,"546,028",Hospitalization,Reference (blinded two-clinician adjudication); downstream,pain partial; enzyme exact; imaging partial,row-level ULN,single-center/era
+eICU,"200,859",ICU stay,structured transport; hospital heterogeneity,pain partial; enzyme proxy; imaging absent,no row-level ULN,—
+NWICU,"61,843",Hospitalization,second structured transport,pain absent; enzyme exact; imaging absent,row-level ULN,ICU selection; unit heterogeneity
+SICdb,"27,350",ICU stay,small-sample boundary,pain absent; enzyme partial; imaging absent,unavailable,128 coded cases
+HiRID,"33,905",Patient,negative capability,diagnosis absent,not applicable,AP not identifiable

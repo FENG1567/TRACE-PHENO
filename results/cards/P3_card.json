@@ -4,8 +4,8 @@
   "version": "1.1",
   "target_construct": "acute pancreatitis",
   "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
-  "definition": "At least two positive Atlanta-like evidence domains among pain enzyme and imaging",
-  "intended_use": "Transparent evidence-rule audit",
+  "definition": "At least two positive domains among pain, enzyme >=3x row-specific ULN, and imaging; pain positive requires no pain-negation flag; frozen imaging implementation counts a positive flag even if a negative flag also occurs",
+  "intended_use": "Implementation-fidelity/rule-concordance control only",
   "not_for": "Independent clinical validation",
   "known_limitations": "Rule-concordant with the adjudicated reference construction"
 }

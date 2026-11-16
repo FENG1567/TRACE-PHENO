@@ -1,7 +1,27 @@
-status,meaning
-direct,Clinical rule unchanged; only approved syntax or unit mapping
-adapted,Explicit versioned change to mapping or operational rule
-partial,Only a subset of the requested semantics is available
-proxy,A declared substitute that is not semantically equivalent
-not_computable,Required evidence exists in principle but cannot be calculated reliably
-not_identifiable,The target construct cannot be distinguished from missing evidence
+context,phenotype,status,positive_yield,analysis_unit_denominator,yield_per_1000,interpretation
+MIMIC,P0,direct,3266,546028,5.981378244339118,source benchmark cohort
+MIMIC,P1,direct,1825,546028,3.3423194414938426,source benchmark cohort
+MIMIC,P2,direct,887,546028,1.624458818961665,source benchmark cohort
+MIMIC,P3,rule_concordance_only,22725,546028,41.618744826272646,shared evidence rules; not independent clinical performance
+MIMIC,P4,definitionally_equivalent_to_P3,22725,546028,41.618744826272646,weighted threshold reduces to the same binary rule
+eICU,P0,adapted,667,200859,3.32073743272644,mixed ICD-9/10 parser
+eICU,P1,partial,511,200859,2.544073205582025,diagnosis-priority semantics not independently verified
+eICU,P2_direct,not_computable,,200859,,contemporaneous local ULN unavailable
+eICU,P2_proxy,proxy,484,200859,2.4096505508839536,fixed literature threshold; not a site-specific ULN
+eICU,P3,not_computable,,200859,,required domains are absent or semantically unsupported
+eICU,P4,not_computable,,200859,,required evidence domains unavailable
+NWICU,P0,direct,580,61843,9.378587714050093,ICD-10 any-position
+NWICU,P1,partial,580,61843,9.378587714050093,seq_num 0/1 primary semantics remain unverified
+NWICU,P2,direct,343,61843,5.546302734343418,row-specific ULN; unit/reference pairing requires audit
+NWICU,P3,not_computable,,61843,,free text and imaging unavailable
+NWICU,P4,not_computable,,61843,,free text and imaging unavailable
+SICdb,P0,partial,128,27350,4.680073126142596,only principal diagnosis is available; partial any-position mapping
+SICdb,P1,direct,128,27350,4.680073126142596,principal ICD-10 field
+SICdb,P2,not_computable,,27350,,contemporaneous ULN unavailable
+SICdb,P3,not_computable,,27350,,text and imaging unavailable
+SICdb,P4,not_computable,,27350,,text and imaging unavailable
+HiRID,P0,not_identifiable,,33905,,diagnostic domain absent; do not encode as negative
+HiRID,P1,not_identifiable,,33905,,diagnostic domain absent; do not encode as negative
+HiRID,P2,not_identifiable,,33905,,diagnostic domain absent
+HiRID,P3,not_computable,,33905,,required enzyme/text/imaging anchors absent
+HiRID,P4,not_identifiable,,33905,,required diagnostic evidence absent

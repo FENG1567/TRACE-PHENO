@@ -4,8 +4,8 @@
   "version": "1.0",
   "target_construct": "acute pancreatitis",
   "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
-  "definition": "Regularized logistic regression using seven frozen evidence features",
-  "intended_use": "Exploratory modeling demonstration",
-  "not_for": "Clinical deployment or stable ranking",
-  "known_limitations": "Small development set and precision-limited evaluation"
+  "definition": "Seven frozen features: any AP code, principal AP code, enzyme >=3xULN, normalized log maximum ULN multiple, pain flag, imaging flag, and pancreatitis-history flag; C=1.0, balanced classes, threshold 0.50",
+  "intended_use": "Excluded from main empirical comparison because event-per-feature support and inferential uncertainty were inadequate; specification retained for transparency",
+  "not_for": "Main clinical comparison or clinical deployment",
+  "known_limitations": "Specification only; 39 adjudicable development positives"
 }

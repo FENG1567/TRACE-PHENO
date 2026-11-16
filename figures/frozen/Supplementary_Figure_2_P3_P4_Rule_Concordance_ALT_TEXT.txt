@@ -1,0 +1,1 @@
+Two panels show P3 rule concordance and implementation sensitivity, and the complete-binary-input P3/P4 equivalence demonstration.

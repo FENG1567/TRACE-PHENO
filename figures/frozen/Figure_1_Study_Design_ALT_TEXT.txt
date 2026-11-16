@@ -1,1 +1,1 @@
-Four panels show the measurement pathway, database roles, MIMIC patient-level representative-hospitalization sampling, and corrected stratum-specific validation weights. The strict validation subset contains 86 encounters and 20 definitive positives.
+Three panels show the evidence-to-cohort pathway, five database contexts, and the MIMIC reference-sampling flow. The 900 sampled encounters include 100 pilot and 800 formal encounters; 86 validation encounters have strict adjudicable labels.

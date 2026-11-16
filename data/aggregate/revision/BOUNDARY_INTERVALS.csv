@@ -1,0 +1,121 @@
+policy,phenotype,metric,scale,estimate,ci_lower,ci_upper,denominator_n,effective_n_kish,ci_method
+strict,P0,sensitivity,design_weighted,0.10910891089108914,0.014747016698588356,0.5005265998182277,20,6.2683727247873735,Kish effective-n Wilson score interval
+strict,P0,sensitivity,unweighted_sample,0.75,0.5089541282920425,0.9134285308985653,20,,Clopper-Pearson exact interval
+strict,P0,specificity,design_weighted,0.9962003686209548,0.9292159851880073,0.9998090638834998,66,56.31199553692913,Kish effective-n Wilson score interval
+strict,P0,specificity,unweighted_sample,0.8787878787878788,0.7750598442768422,0.9461891381581342,66,,Clopper-Pearson exact interval
+strict,P0,ppv,design_weighted,0.7644991212653778,0.5529407630126179,0.8949614005331709,23,21.216780619934905,Kish effective-n Wilson score interval
+strict,P0,ppv,unweighted_sample,0.6521739130434783,0.42734396303649436,0.8362364016250501,23,,Clopper-Pearson exact interval
+strict,P0,npv,design_weighted,0.908184173147357,0.80948612389105,0.9583794762536304,63,60.81560977308358,Kish effective-n Wilson score interval
+strict,P0,npv,unweighted_sample,0.9206349206349206,0.8244240502751521,0.9737276593559724,63,,Clopper-Pearson exact interval
+strict,P1,sensitivity,design_weighted,0.08001320132013204,0.008432055299554736,0.47076128599953293,20,6.2683727247873735,Kish effective-n Wilson score interval
+strict,P1,sensitivity,unweighted_sample,0.55,0.31527813304054847,0.7694221032240758,20,,Clopper-Pearson exact interval
+strict,P1,specificity,design_weighted,0.9984593534458099,0.9332878041626531,0.9999666925684667,66,56.31199553692913,Kish effective-n Wilson score interval
+strict,P1,specificity,unweighted_sample,0.9545454545454546,0.8728574940886829,0.9905262614362937,66,,Clopper-Pearson exact interval
+strict,P1,ppv,design_weighted,0.8544642857142856,0.5910871445363199,0.9597531736412579,14,13.38512100388408,Kish effective-n Wilson score interval
+strict,P1,ppv,unweighted_sample,0.7857142857142857,0.4920243229515281,0.9534207121101327,14,,Clopper-Pearson exact interval
+strict,P1,npv,design_weighted,0.9056627101321425,0.8069563964687917,0.9566125099635648,72,61.42028124467691,Kish effective-n Wilson score interval
+strict,P1,npv,unweighted_sample,0.875,0.7759280642567467,0.9412166829434396,72,,Clopper-Pearson exact interval
+strict,P2,sensitivity,design_weighted,0.058191419141914204,0.004692380832390319,0.447440754053401,20,6.2683727247873735,Kish effective-n Wilson score interval
+strict,P2,sensitivity,unweighted_sample,0.4,0.1911900607253072,0.6394574126925103,20,,Clopper-Pearson exact interval
+strict,P2,specificity,design_weighted,1.0,0.9361390154278432,1.0,66,56.31199553692913,Kish effective-n Wilson score interval
+strict,P2,specificity,unweighted_sample,1.0,0.945641152829878,1.0,66,,Clopper-Pearson exact interval
+strict,P2,ppv,design_weighted,1.0,0.6755924351161198,1.0,8,8.000000000000002,Kish effective-n Wilson score interval
+strict,P2,ppv,unweighted_sample,1.0,0.6305833524471807,1.0,8,,Clopper-Pearson exact interval
+strict,P2,npv,design_weighted,0.9037748497114269,0.8050512882881545,0.9552811053183324,78,61.85837013738921,Kish effective-n Wilson score interval
+strict,P2,npv,unweighted_sample,0.8461538461538461,0.7466786658963328,0.9178981617130411,78,,Clopper-Pearson exact interval
+probable_positive,P0,sensitivity,design_weighted,0.02156940354662063,0.004142524898289021,0.10460726514450532,77,52.1818272882455,Kish effective-n Wilson score interval
+probable_positive,P0,sensitivity,unweighted_sample,0.35064935064935066,0.24532249650618057,0.4678467758113496,77,,Clopper-Pearson exact interval
+probable_positive,P0,specificity,design_weighted,0.9962003686209548,0.9292159851880073,0.9998090638834998,66,56.31199553692913,Kish effective-n Wilson score interval
+probable_positive,P0,specificity,unweighted_sample,0.8787878787878788,0.7750598442768422,0.9461891381581342,66,,Clopper-Pearson exact interval
+probable_positive,P0,ppv,design_weighted,0.8538713195201747,0.6975591637748781,0.9367240926758464,35,33.16898297284856,Kish effective-n Wilson score interval
+probable_positive,P0,ppv,unweighted_sample,0.7714285714285715,0.5986367438926852,0.8957895680521848,35,,Clopper-Pearson exact interval
+probable_positive,P0,npv,design_weighted,0.497269379730908,0.403646601948099,0.591084031652596,108,105.49652054384956,Kish effective-n Wilson score interval
+probable_positive,P0,npv,unweighted_sample,0.5370370370370371,0.4384919745398698,0.6334996970775336,108,,Clopper-Pearson exact interval
+probable_positive,P1,sensitivity,design_weighted,0.011983001970344803,0.0014961191298424603,0.08939552705483331,77,52.1818272882455,Kish effective-n Wilson score interval
+probable_positive,P1,sensitivity,unweighted_sample,0.19480519480519481,0.11333172919353503,0.3008671469477934,77,,Clopper-Pearson exact interval
+probable_positive,P1,specificity,design_weighted,0.9984593534458099,0.9332878041626531,0.9999666925684667,66,56.31199553692913,Kish effective-n Wilson score interval
+probable_positive,P1,specificity,unweighted_sample,0.9545454545454546,0.8728574940886829,0.9905262614362937,66,,Clopper-Pearson exact interval
+probable_positive,P1,ppv,design_weighted,0.8889645776566757,0.6674779231949306,0.9696346199968193,18,17.380347119168984,Kish effective-n Wilson score interval
+probable_positive,P1,ppv,unweighted_sample,0.8333333333333334,0.5858225086052259,0.9642149168784253,18,,Clopper-Pearson exact interval
+probable_positive,P1,npv,design_weighted,0.4953982293895267,0.402375074434713,0.5887410704947936,125,106.75146037428983,Kish effective-n Wilson score interval
+probable_positive,P1,npv,unweighted_sample,0.504,0.41318845526908404,0.594617687720815,125,,Clopper-Pearson exact interval
+probable_positive,P2,sensitivity,design_weighted,0.011184135172321816,0.0013227404278741903,0.08808072710195836,77,52.1818272882455,Kish effective-n Wilson score interval
+probable_positive,P2,sensitivity,unweighted_sample,0.18181818181818182,0.10312224032196103,0.2862025436023483,77,,Clopper-Pearson exact interval
+probable_positive,P2,specificity,design_weighted,1.0,0.9361390154278432,1.0,66,56.31199553692913,Kish effective-n Wilson score interval
+probable_positive,P2,specificity,unweighted_sample,1.0,0.945641152829878,1.0,66,,Clopper-Pearson exact interval
+probable_positive,P2,ppv,design_weighted,1.0,0.7846891972623641,1.0,14,14.000000000000004,Kish effective-n Wilson score interval
+probable_positive,P2,ppv,unweighted_sample,1.0,0.7683642383498834,1.0,14,,Clopper-Pearson exact interval
+probable_positive,P2,npv,design_weighted,0.4955816158535226,0.4026548889968411,0.5888146078988026,129,106.99739185233874,Kish effective-n Wilson score interval
+probable_positive,P2,npv,unweighted_sample,0.5116279069767442,0.4221098876761751,0.6006001148525151,129,,Clopper-Pearson exact interval
+probable_negative,P0,sensitivity,design_weighted,0.10910891089108914,0.014747016698588356,0.5005265998182277,20,6.2683727247873735,Kish effective-n Wilson score interval
+probable_negative,P0,sensitivity,unweighted_sample,0.75,0.5089541282920425,0.9134285308985653,20,,Clopper-Pearson exact interval
+probable_negative,P0,specificity,design_weighted,0.9928678345412377,0.9509364979633118,0.9990008774082272,123,101.93629169015877,Kish effective-n Wilson score interval
+probable_negative,P0,specificity,unweighted_sample,0.8373983739837398,0.7601058957550731,0.8977576678009214,123,,Clopper-Pearson exact interval
+probable_negative,P0,ppv,design_weighted,0.4743729552889862,0.3161373026812849,0.6379284707344569,35,33.16898297284856,Kish effective-n Wilson score interval
+probable_negative,P0,ppv,unweighted_sample,0.42857142857142855,0.2632272356988169,0.6064690577399962,35,,Clopper-Pearson exact interval
+probable_negative,P0,npv,design_weighted,0.949726937973091,0.8900270414568451,0.9778256009047931,108,105.49652054384956,Kish effective-n Wilson score interval
+probable_negative,P0,npv,unweighted_sample,0.9537037037037037,0.8952619054516794,0.9847990766945507,108,,Clopper-Pearson exact interval
+probable_negative,P1,sensitivity,design_weighted,0.08001320132013204,0.008432055299554736,0.47076128599953293,20,6.2683727247873735,Kish effective-n Wilson score interval
+probable_negative,P1,sensitivity,unweighted_sample,0.55,0.31527813304054847,0.7694221032240758,20,,Clopper-Pearson exact interval
+probable_negative,P1,specificity,design_weighted,0.9974795736172699,0.9589751135112745,0.9998507772121783,123,101.93629169015877,Kish effective-n Wilson score interval
+probable_negative,P1,specificity,unweighted_sample,0.943089430894309,0.88625582684577,0.9768155564861852,123,,Clopper-Pearson exact interval
+probable_negative,P1,ppv,design_weighted,0.6519073569482288,0.41987941003868223,0.8289403747805124,18,17.380347119168984,Kish effective-n Wilson score interval
+probable_negative,P1,ppv,unweighted_sample,0.6111111111111112,0.3574512058930626,0.8270141452102482,18,,Clopper-Pearson exact interval
+probable_negative,P1,npv,design_weighted,0.9483974267206782,0.8887483344142638,0.9768962381123482,125,106.75146037428983,Kish effective-n Wilson score interval
+probable_negative,P1,npv,unweighted_sample,0.928,0.8677205528095013,0.9665499649565814,125,,Clopper-Pearson exact interval
+probable_negative,P2,sensitivity,design_weighted,0.058191419141914204,0.004692380832390319,0.447440754053401,20,6.2683727247873735,Kish effective-n Wilson score interval
+probable_negative,P2,sensitivity,unweighted_sample,0.4,0.1911900607253072,0.6394574126925103,20,,Clopper-Pearson exact interval
+probable_negative,P2,specificity,design_weighted,0.9974253178634344,0.9588766635671068,0.9998446563875004,123,101.93629169015877,Kish effective-n Wilson score interval
+probable_negative,P2,specificity,unweighted_sample,0.9512195121951219,0.896848109840565,0.9818905878470316,123,,Clopper-Pearson exact interval
+probable_negative,P2,ppv,design_weighted,0.5714285714285714,0.3259064457965075,0.7861920109552587,14,14.000000000000004,Kish effective-n Wilson score interval
+probable_negative,P2,ppv,unweighted_sample,0.5714285714285714,0.28860940003830743,0.8233889100178821,14,,Clopper-Pearson exact interval
+probable_negative,P2,npv,design_weighted,0.9472352926384426,0.8873222699802876,0.9761477058640846,129,106.99739185233874,Kish effective-n Wilson score interval
+probable_negative,P2,npv,unweighted_sample,0.9069767441860465,0.8431447070430653,0.9510048782934394,129,,Clopper-Pearson exact interval
+all_uncertain_positive,P0,sensitivity,design_weighted,0.013553601733511014,0.003339735557243484,0.05333285411212215,174,122.5674299133597,Kish effective-n Wilson score interval
+all_uncertain_positive,P0,sensitivity,unweighted_sample,0.2988505747126437,0.23193103315895325,0.37276835952674586,174,,Clopper-Pearson exact interval
+all_uncertain_positive,P0,specificity,design_weighted,0.9962003686209548,0.9292159851880073,0.9998090638834998,66,56.31199553692913,Kish effective-n Wilson score interval
+all_uncertain_positive,P0,specificity,unweighted_sample,0.8787878787878788,0.7750598442768422,0.9461891381581342,66,,Clopper-Pearson exact interval
+all_uncertain_positive,P0,ppv,design_weighted,0.8928000000000001,0.7802665231539923,0.9512982409411781,60,52.00821036280914,Kish effective-n Wilson score interval
+all_uncertain_positive,P0,ppv,unweighted_sample,0.8666666666666667,0.7540777788695802,0.9406355772946428,60,,Clopper-Pearson exact interval
+all_uncertain_positive,P0,npv,design_weighted,0.301939595706473,0.23877154382198185,0.37361695166760245,180,174.98418432266178,Kish effective-n Wilson score interval
+all_uncertain_positive,P0,npv,unweighted_sample,0.32222222222222224,0.2546249128589892,0.39578909009166846,180,,Clopper-Pearson exact interval
+all_uncertain_positive,P1,sensitivity,design_weighted,0.007129000194956071,0.0011441493962662877,0.04306971356987247,174,122.5674299133597,Kish effective-n Wilson score interval
+all_uncertain_positive,P1,sensitivity,unweighted_sample,0.15517241379310345,0.10481857000839517,0.2176797939024389,174,,Clopper-Pearson exact interval
+all_uncertain_positive,P1,specificity,design_weighted,0.9984593534458099,0.9332878041626531,0.9999666925684667,66,56.31199553692913,Kish effective-n Wilson score interval
+all_uncertain_positive,P1,specificity,unweighted_sample,0.9545454545454546,0.8728574940886829,0.9905262614362937,66,,Clopper-Pearson exact interval
+all_uncertain_positive,P1,ppv,design_weighted,0.9152806652806657,0.7493037398420221,0.9750319072069176,30,26.194282479479167,Kish effective-n Wilson score interval
+all_uncertain_positive,P1,ppv,unweighted_sample,0.9,0.7347115495257919,0.9788828629702774,30,,Clopper-Pearson exact interval
+all_uncertain_positive,P1,npv,design_weighted,0.30104946689697465,0.23825135661956687,0.37230981694239507,210,176.78690937074592,Kish effective-n Wilson score interval
+all_uncertain_positive,P1,npv,unweighted_sample,0.3,0.23886565556484698,0.3668817377734121,210,,Clopper-Pearson exact interval
+all_uncertain_positive,P2,sensitivity,design_weighted,0.004930790594807776,0.0005990510262471153,0.0393519961869917,174,122.5674299133597,Kish effective-n Wilson score interval
+all_uncertain_positive,P2,sensitivity,unweighted_sample,0.08045977011494253,0.04468591570262358,0.13131330405170824,174,,Clopper-Pearson exact interval
+all_uncertain_positive,P2,specificity,design_weighted,1.0,0.9361390154278432,1.0,66,56.31199553692913,Kish effective-n Wilson score interval
+all_uncertain_positive,P2,specificity,unweighted_sample,1.0,0.945641152829878,1.0,66,,Clopper-Pearson exact interval
+all_uncertain_positive,P2,ppv,design_weighted,1.0,0.7846891972623641,1.0,14,14.000000000000004,Kish effective-n Wilson score interval
+all_uncertain_positive,P2,ppv,unweighted_sample,1.0,0.7683642383498834,1.0,14,,Clopper-Pearson exact interval
+all_uncertain_positive,P2,npv,design_weighted,0.3009085659011155,0.23823632016484136,0.3720162097581296,226,177.4900052541069,Kish effective-n Wilson score interval
+all_uncertain_positive,P2,npv,unweighted_sample,0.2920353982300885,0.23362536155895613,0.3559940367937221,226,,Clopper-Pearson exact interval
+all_uncertain_negative,P0,sensitivity,design_weighted,0.10910891089108914,0.014747016698588356,0.5005265998182277,20,6.2683727247873735,Kish effective-n Wilson score interval
+all_uncertain_negative,P0,sensitivity,unweighted_sample,0.75,0.5089541282920425,0.9134285308985653,20,,Clopper-Pearson exact interval
+all_uncertain_negative,P0,specificity,design_weighted,0.9928269338558532,0.9656388749900953,0.9985352168898565,220,172.43359981725055,Kish effective-n Wilson score interval
+all_uncertain_negative,P0,specificity,unweighted_sample,0.7954545454545454,0.7360449408792391,0.8467162997062118,220,,Clopper-Pearson exact interval
+all_uncertain_negative,P0,ppv,design_weighted,0.3480000000000004,0.23309263490595278,0.48381713051546893,60,52.00821036280914,Kish effective-n Wilson score interval
+all_uncertain_negative,P0,ppv,unweighted_sample,0.25,0.1471860737990036,0.3785963554795444,60,,Clopper-Pearson exact interval
+all_uncertain_negative,P0,npv,design_weighted,0.9694744365085474,0.932233732544037,0.9865450274678395,180,174.98418432266178,Kish effective-n Wilson score interval
+all_uncertain_negative,P0,npv,unweighted_sample,0.9722222222222222,0.9363694222569141,0.9909203949889306,180,,Clopper-Pearson exact interval
+all_uncertain_negative,P1,sensitivity,design_weighted,0.08001320132013204,0.008432055299554736,0.47076128599953293,20,6.2683727247873735,Kish effective-n Wilson score interval
+all_uncertain_negative,P1,sensitivity,unweighted_sample,0.55,0.31527813304054847,0.7694221032240758,20,,Clopper-Pearson exact interval
+all_uncertain_negative,P1,specificity,design_weighted,0.9971630450055665,0.9729483585732863,0.9997089669590051,220,172.43359981725055,Kish effective-n Wilson score interval
+all_uncertain_negative,P1,specificity,unweighted_sample,0.9136363636363637,0.8684181192022324,0.9472017612508308,220,,Clopper-Pearson exact interval
+all_uncertain_negative,P1,ppv,design_weighted,0.4974012474012475,0.31892279516870004,0.6765444410825583,30,26.194282479479167,Kish effective-n Wilson score interval
+all_uncertain_negative,P1,ppv,unweighted_sample,0.36666666666666664,0.19929862501203444,0.5614401509880425,30,,Clopper-Pearson exact interval
+all_uncertain_negative,P1,npv,design_weighted,0.9686415367382416,0.9313741434179877,0.9859755476881388,210,176.78690937074592,Kish effective-n Wilson score interval
+all_uncertain_negative,P1,npv,unweighted_sample,0.9571428571428572,0.920205309073043,0.9802185178140926,210,,Clopper-Pearson exact interval
+all_uncertain_negative,P2,sensitivity,design_weighted,0.058191419141914204,0.004692380832390319,0.447440754053401,20,6.2683727247873735,Kish effective-n Wilson score interval
+all_uncertain_negative,P2,sensitivity,unweighted_sample,0.4,0.1911900607253072,0.6394574126925103,20,,Clopper-Pearson exact interval
+all_uncertain_negative,P2,specificity,design_weighted,0.998468572381495,0.9753043765922498,0.999907102509251,220,172.43359981725055,Kish effective-n Wilson score interval
+all_uncertain_negative,P2,specificity,unweighted_sample,0.9727272727272728,0.9415868978941668,0.9899270137771194,220,,Clopper-Pearson exact interval
+all_uncertain_negative,P2,ppv,design_weighted,0.5714285714285714,0.3259064457965075,0.7861920109552587,14,14.000000000000004,Kish effective-n Wilson score interval
+all_uncertain_negative,P2,ppv,unweighted_sample,0.5714285714285714,0.28860940003830743,0.8233889100178821,14,,Clopper-Pearson exact interval
+all_uncertain_negative,P2,npv,design_weighted,0.9679621844022341,0.9305667420061146,0.9855303180607846,226,177.4900052541069,Kish effective-n Wilson score interval
+all_uncertain_negative,P2,npv,unweighted_sample,0.9469026548672567,0.9090871042195987,0.9722662292399343,226,,Clopper-Pearson exact interval

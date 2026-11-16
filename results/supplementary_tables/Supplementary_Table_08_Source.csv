@@ -1,0 +1,21 @@
+﻿database,concept,source table,source fields,target semantics,transport status,mapping confidence,failure or loss,phenotype use
+MIMIC,encounter anchor,admissions,hadm_id; subject_id; admittime; dischtime,hospitalization,direct,exact,none,P0-P3
+MIMIC,diagnosis code,diagnoses_icd,hadm_id; icd_code; icd_version; seq_num,ICD-9/10; seq_num=1 principal,direct,exact,D4 guarded by explicit version/value set,P0/P1/P2
+MIMIC,enzyme,labevents + d_labitems,itemid; charttime; valuenum; valueuom; ref_range_upper,row-level ULN multiple,direct,exact,D2 when ULN/value invalid,P2/P3
+MIMIC,pain/history text,discharge notes,hadm_id; text,lexicon assertions with negation/history flags,direct,partial,D1 template and temporality ambiguity,P3/P5
+MIMIC,imaging text,radiology notes,hadm_id; text,lexicon assertions; positive and negative flags retained,direct,partial,D1 lexical conflict; sensitivity analysis provided,P3/P5
+eICU,encounter/site anchor,patient,patientunitstayid; hospitalid,ICU stay; hospital grouping,direct,compatible,D5 site recording heterogeneity,P0/P1/P2-proxy
+eICU,diagnosis code,diagnosis,patientunitstayid; icd9code; diagnosispriority,comma-split mixed ICD-9/10; Primary/Major priority,adapted,partial,D4 mixed coding; D1 priority semantics unverified,P0/P1
+eICU,admission diagnosis text,admissionDx,patientunitstayid; admitdxname,pancreatitis string signal only,adapted,partial,D1 admissionDx is not an ICD diagnosis,candidate yield only
+eICU,enzyme,lab,patientunitstayid; labname; labresult; labresultoffset,numeric enzyme without row-level ULN,proxy,proxy,D2 fixed 180/330 U/L thresholds are not local 3xULN,P2-proxy
+eICU,pain text,physicalExam/note,template text fields,keyword hits,partial,partial,D1 audit: 0/30 hits verified current pain,not promoted to P3
+eICU,imaging,none,none,domain absent,not computable,absent,D0 imaging narrative absent,P3
+NWICU,encounter anchor,nw_hosp/admissions,hadm_id; admittime,hospitalization,direct,exact,none,P0-P3
+NWICU,diagnosis code,nw_hosp/diagnoses_icd,hadm_id; icd_code; icd_version; seq_num,ICD value set; seq_num 0/1 candidate principal,direct/partial,partial,D1 principal semantics not independently verified,P0/P1
+NWICU,enzyme,nw_hosp/labevents + d_labitems,itemid; charttime; valuenum; valueuom; ref_range_upper,row-level ULN multiple within -24/+48 h,direct,compatible,D2 heterogeneous unit strings require value/ULN pairing,P2
+NWICU,pain/imaging,none,none,domains absent,not computable,absent,D0 text and imaging absent,P3
+SICdb,encounter/principal diagnosis,cases,CaseID; ICD10Main,single principal ICD-10 field,direct for P1; partial for P0,compatible,D1 any-position diagnosis unavailable,P0/P1
+SICdb,enzyme concept,laboratory + d_references,CaseID; LOINC; value; unit,LOINC identifies analyte,not computable,partial,D2 contemporaneous ULN unavailable,P2
+SICdb,pain/imaging,none,none,domains absent,not computable,absent,D0 text and imaging absent,P3
+HiRID,diagnosis,none,none,diagnosis domain absent,not identifiable,absent,D0 minimum identifying domain absent,P0/P1/P2
+HiRID,AP multi-domain evidence,observation tables,no validated AP diagnosis/pain/imaging linkage,insufficient construct evidence,not computable,absent/unknown,D0/D3,P3

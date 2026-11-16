@@ -1,0 +1,226 @@
+[
+  {
+    "file": "source_data/revision/SAMPLING_DESIGN.csv",
+    "sha256": "1b60cbccf85ff2322c7e8c87c7886161c5c32b5ddb61870edb0e5d3b2f3c2a52",
+    "source_group": "revision",
+    "columns": [
+      "stratum",
+      "patient_pool_N",
+      "formal_sample_n",
+      "development_n",
+      "validation_n",
+      "formal_selection_probability",
+      "formal_design_weight",
+      "validation_selection_probability",
+      "validation_design_weight",
+      "sampling_unit"
+    ]
+  },
+  {
+    "file": "source_data/revision/BENCHMARK_METRICS.csv",
+    "sha256": "c204d1ed97b41e6bf071f4e35ac06e8ed7f047b0d99f5dcea8a3fd0ab64f21dd",
+    "source_group": "revision",
+    "columns": [
+      "policy",
+      "phenotype",
+      "scale",
+      "metric",
+      "estimate",
+      "ci_lower",
+      "ci_upper",
+      "bootstrap_ci_lower",
+      "bootstrap_ci_upper",
+      "ci_level",
+      "ci_method",
+      "ci_method_bootstrap",
+      "degenerate_boundary",
+      "eligible_n",
+      "positive_n",
+      "negative_n",
+      "target_frame",
+      "reference_status"
+    ]
+  },
+  {
+    "file": "source_data/revision/BOUNDARY_INTERVALS.csv",
+    "sha256": "fdffe04199da34629b8e927e9ffcc5eb18ded98be7c59ce7a3a30be1d5b9f678",
+    "source_group": "revision",
+    "columns": [
+      "policy",
+      "phenotype",
+      "metric",
+      "scale",
+      "estimate",
+      "ci_lower",
+      "ci_upper",
+      "denominator_n",
+      "effective_n_kish",
+      "ci_method"
+    ]
+  },
+  {
+    "file": "source_data/revision/TRANSPORT_COMPUTABILITY.csv",
+    "sha256": "cd7b45549d7080b0a372ee4cfee57120c56fdd1fcf14c35c7e0cd7060fa1a645",
+    "source_group": "revision",
+    "columns": [
+      "context",
+      "phenotype",
+      "status",
+      "positive_yield",
+      "analysis_unit_denominator",
+      "yield_per_1000",
+      "interpretation"
+    ]
+  },
+  {
+    "file": "source_data/revision/P0_TO_P2_RETENTION.csv",
+    "sha256": "c10dd2c0658a9e039921f44ab95a9c7376d66636765326879c087dffe2be6b03",
+    "source_group": "revision",
+    "columns": [
+      "context",
+      "p0_status",
+      "p2_status",
+      "analysis_unit_denominator",
+      "p0_n",
+      "p2_n",
+      "p0_to_p2_retention",
+      "p0_excluded_after_p2",
+      "p2_outside_p0",
+      "nesting_check"
+    ]
+  },
+  {
+    "file": "source_data/revision/MIMIC_PAIRED_DOWNSTREAM_BOOTSTRAP.csv",
+    "sha256": "b3513d76e291e8813ca05f6061a29fb0efb035fd1ef50910fe128266ebf485e0",
+    "source_group": "revision",
+    "columns": [
+      "comparison",
+      "phenotype_A",
+      "phenotype_B",
+      "unit",
+      "patients_in_union",
+      "admissions_A",
+      "deaths_A",
+      "mortality_A",
+      "admissions_B",
+      "deaths_B",
+      "mortality_B",
+      "point_difference_B_minus_A",
+      "bootstrap_median",
+      "ci_lower",
+      "ci_upper",
+      "ci_level",
+      "ci_method",
+      "bootstrap_replicates",
+      "seed"
+    ]
+  },
+  {
+    "file": "source_data/revision/P3_RULE_CONCORDANCE.csv",
+    "sha256": "db1a66616c398457c1e5eb6cdb9542880835dd8324f6ba3d59d09e38b0412f70",
+    "source_group": "revision",
+    "columns": [
+      "policy",
+      "scale",
+      "eligible_n",
+      "positive_n",
+      "negative_n",
+      "weighted_or_sample_matches",
+      "weighted_or_sample_eligible_total",
+      "rule_concordance",
+      "ci_lower",
+      "ci_upper",
+      "effective_n_kish",
+      "bootstrap_ci_lower",
+      "bootstrap_ci_upper",
+      "ci_method",
+      "ci_method_bootstrap",
+      "degenerate_boundary",
+      "reference_status"
+    ]
+  },
+  {
+    "file": "source_data/frozen/Figure_3_Label_Boundary.csv",
+    "sha256": "31919f30de3bd02702076542cda5c25864c44a8439311edddb51fe65f41d506c",
+    "source_group": "frozen",
+    "columns": [
+      "policy",
+      "phenotype",
+      "scale",
+      "metric",
+      "estimate",
+      "ci_lower",
+      "ci_upper",
+      "ci_level",
+      "ci_method",
+      "eligible_n",
+      "positive_n",
+      "negative_n",
+      "target_frame",
+      "weighting"
+    ]
+  },
+  {
+    "file": "source_data/frozen/Figure_5_Reportability.csv",
+    "sha256": "c43f0ebd228c55361bca5d1f5ca46651c84797d169c26b7d42b90a90802bbae8",
+    "source_group": "frozen",
+    "columns": [
+      "phenotype",
+      "reportable_hospitals",
+      "threshold"
+    ]
+  },
+  {
+    "file": "source_data/frozen/Figure_5_Burden.csv",
+    "sha256": "44596f712e3c71e2c441b43f7fd7c449ab4e0b1b7d7c5db179106d1133cb33e0",
+    "source_group": "frozen",
+    "columns": [
+      "phenotype",
+      "admissions",
+      "deaths",
+      "mortality_pct",
+      "icu_pct",
+      "los_median_days",
+      "yield_per_1000"
+    ]
+  },
+  {
+    "file": "source_data/frozen/Figure_5_Set_Decomposition.csv",
+    "sha256": "1184d0f1e1dcfd1a183bf86b481cede69a547bf96ac188f29ff49dba44f72cfa",
+    "source_group": "frozen",
+    "columns": [
+      "comparison",
+      "set_component",
+      "n",
+      "mortality_pct",
+      "icu_pct",
+      "los_median_days",
+      "source"
+    ]
+  },
+  {
+    "file": "source_data/legacy/fig2_reference_distribution.csv",
+    "sha256": "875658b474a71a17d37f369dd9d8e4e4b4a176aab5d3e358b5aaf74bec1a5e98",
+    "source_group": "legacy",
+    "columns": [
+      "label",
+      "n",
+      "percent"
+    ]
+  },
+  {
+    "file": "source_data/legacy/fig4_capabilities.csv",
+    "sha256": "9f22301d8a26dca983cbbe53681779c16fd02c927fb42ca9cc3b66d5c083c093",
+    "source_group": "legacy",
+    "columns": [
+      "database",
+      "diagnosis",
+      "diagnosis_position",
+      "ULN",
+      "enzyme_unit",
+      "pain_semantics",
+      "imaging",
+      "time_anchor"
+    ]
+  }
+]

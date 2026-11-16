@@ -1,1 +1,1 @@
-Six panels show the three-domain AP construct, EvidenceAssertion fields, final label distribution, full versus early identifiability, and audit findings.
+Three panels show the three Atlanta findings, the four reference-label groups among 900 encounters, and the difference between full-hospitalization and early-window evidence.

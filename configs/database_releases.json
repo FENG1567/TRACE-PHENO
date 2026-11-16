@@ -1,0 +1,28 @@
+{
+  "period_semantics": "Source periods reported by the database providers.",
+  "databases": {
+    "MIMIC-IV": {
+      "version": "3.1",
+      "provider_source_period": "2008-2022"
+    },
+    "MIMIC-IV-Note": {
+      "version": "2.2"
+    },
+    "eICU-CRD": {
+      "version": "2.0",
+      "provider_source_period": "2014-2015"
+    },
+    "NWICU": {
+      "version": "0.1.0",
+      "provider_source_period": "2020-2022"
+    },
+    "SICdb": {
+      "version": "1.0.8",
+      "provider_source_period": "2013-2021"
+    },
+    "HiRID": {
+      "version": "1.1.1",
+      "provider_source_period": "January 2008-June 2016"
+    }
+  }
+}

@@ -4,8 +4,8 @@
   "version": "1.0",
   "target_construct": "acute pancreatitis",
   "reference_type": "Blinded two-clinician-adjudicated reference set; exploratory conditional agreement only",
-  "definition": "Principal/primary acute-pancreatitis ICD code",
-  "intended_use": "Principal-diagnosis cohort construction",
+  "definition": "P0 code in the locally verified principal-diagnosis position (MIMIC seq_num=1)",
+  "intended_use": "Primary diagnosis-semantics comparator",
   "not_for": "Clinical diagnosis or prevalence estimation",
   "known_limitations": "Diagnosis-position semantics vary by database"
 }

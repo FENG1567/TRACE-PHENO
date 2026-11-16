@@ -1,0 +1,5 @@
+﻿Database,Operational comparison,Coded denominator,Retained,Excluded,Interpretation,Unestimated quantity
+eICU,P0 adapted → P2 proxy,667,484 (72.6%),183 (27.4%),Fixed enzyme thresholds; exact nested-set counts,Loss relative to clinical disease or a local-ULN rule
+NWICU,P0 direct → P2 direct,580,343 (59.1%),237 (40.9%),Local-ULN enzyme criterion; nesting by executable rule,Clinical sensitivity loss
+SICdb,Any-position → principal-only data,Unavailable,128 principal-coded,Not estimable,Secondary diagnosis fields unavailable; contemporaneous ULNs absent,Omitted secondary-position AP; local-ULN P2
+HiRID,Code-based AP identification,Unavailable,Not identifiable,Not estimable,Required diagnosis domain absent,True AP cases or disease-level sensitivity

@@ -1,0 +1,4 @@
+﻿phenotype,reportable_hospitals,threshold
+P0,13,at least 10 phenotype-positive stays
+P1,8,at least 10 phenotype-positive stays
+P2-proxy,6,at least 10 phenotype-positive stays

@@ -1,0 +1,4 @@
+# Keep the exact published bytes used by the SHA-256 manifest on every platform.
+* -text
+# Matplotlib path data contains harmless generated trailing spaces.
+*.svg -whitespace

@@ -2,22 +2,71 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Public manuscript result registry row",
   "type": "object",
-  "required": ["result_id", "dataset", "analysis_unit", "cohort", "phenotype", "estimand", "metric_name", "denominator", "estimate", "ci_method", "weighting", "source_artifact", "analysis_status"],
+  "required": [
+    "result_id",
+    "dataset",
+    "analysis_unit",
+    "cohort",
+    "phenotype",
+    "estimand",
+    "metric_name",
+    "denominator",
+    "estimate",
+    "ci_method",
+    "weighting",
+    "source_artifact",
+    "analysis_status"
+  ],
   "properties": {
-    "result_id": {"type": "string"},
-    "dataset": {"type": "string"},
-    "analysis_unit": {"type": "string"},
-    "cohort": {"type": "string"},
-    "phenotype": {"type": "string"},
-    "estimand": {"type": "string"},
-    "metric_name": {"type": "string"},
-    "denominator": {"type": ["number", "integer"]},
-    "estimate": {"type": "number"},
-    "ci_lower": {"type": ["number", "null"]},
-    "ci_upper": {"type": ["number", "null"]},
-    "ci_method": {"type": "string"},
-    "weighting": {"type": "string"},
-    "source_artifact": {"type": "string"},
-    "analysis_status": {"type": "string"}
-  }
+    "result_id": {
+      "type": "string"
+    },
+    "dataset": {
+      "type": "string"
+    },
+    "analysis_unit": {
+      "type": "string"
+    },
+    "cohort": {
+      "type": "string"
+    },
+    "phenotype": {
+      "type": "string"
+    },
+    "estimand": {
+      "type": "string"
+    },
+    "metric_name": {
+      "type": "string"
+    },
+    "denominator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "estimate": {
+      "type": "string",
+      "pattern": "^$|^-?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:[eE][+-]?\\d+)?$"
+    },
+    "ci_lower": {
+      "type": "string",
+      "pattern": "^$|^-?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:[eE][+-]?\\d+)?$"
+    },
+    "ci_upper": {
+      "type": "string",
+      "pattern": "^$|^-?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:[eE][+-]?\\d+)?$"
+    },
+    "ci_method": {
+      "type": "string"
+    },
+    "weighting": {
+      "type": "string"
+    },
+    "source_artifact": {
+      "type": "string"
+    },
+    "analysis_status": {
+      "type": "string"
+    }
+  },
+  "description": "CSV row contract: cells are strings as read by csv.DictReader. Numeric estimate and interval cells use decimal/scientific notation; an empty interval is allowed for descriptive summaries. Denominators may be a numeric string or an explicitly labelled pair of cohort sizes."
 }

@@ -1,24 +1,3 @@
-# FAIR and repository checklist
+# Reuse information
 
-## Findable
-
-- Machine-readable metadata: `CITATION.cff` and `pyproject.toml`.
-- Stable filenames and a SHA-256 manifest.
-- A future tagged release should be archived with a DOI; no DOI is currently claimed.
-
-## Accessible
-
-- Code, schemas, synthetic data, aggregate results, and figures are directly accessible.
-- Controlled clinical data remain accessible only through their source platforms and qualifications.
-
-## Interoperable
-
-- Core objects are expressed as JSON Schema and CSV dictionaries.
-- Transport states and D0–D6 failure codes have explicit vocabularies.
-- UTF-8 is used throughout.
-
-## Reusable
-
-- The repository includes a license, citation metadata, data boundary, environment files, tests, CI, source tables, provenance documentation, and known limitations.
-- Final authors and repository URL must be added before public release.
-
+The package supplies a software citation, MIT code license, source-data license boundary, machine-readable phenotype definitions, database-version metadata, result lineage, pinned validation dependencies and SHA-256 inventory. Reproduction commands and the restricted input contract are documented separately. The public examples and aggregate figure inputs can be reused without access to clinical source records.

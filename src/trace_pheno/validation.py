@@ -6,6 +6,7 @@ import csv
 import json
 import re
 from pathlib import Path
+from jsonschema import Draft202012Validator
 
 
 REGISTRY_REQUIRED = {
@@ -32,7 +33,13 @@ def validate_registry(path: Path) -> list[str]:
     missing_columns = REGISTRY_REQUIRED - set(rows[0] if rows else {})
     if missing_columns:
         errors.append(f"registry missing columns: {sorted(missing_columns)}")
+    schema_path = Path(__file__).resolve().parents[2] / "schemas" / "manuscript_result_registry.schema.json"
+    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+    Draft202012Validator.check_schema(schema)
+    validator = Draft202012Validator(schema)
     for number, row in enumerate(rows, start=2):
+        for error in validator.iter_errors(row):
+            errors.append(f"registry schema row {number}: {error.message}")
         for field in ("result_id", "metric_name", "estimand", "source_artifact", "analysis_status"):
             if not row.get(field, "").strip():
                 errors.append(f"registry row {number} missing {field}")
@@ -43,7 +50,7 @@ def validate_registry(path: Path) -> list[str]:
 
 def scan_public_tree(root: Path) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
-    ignored = {"CHECKSUMS.sha256", "PUBLIC_ASSET_MANIFEST.json", "PRIVACY_LICENSE_AUDIT.json"}
+    ignored = {"CHECKSUMS.sha256", "PUBLIC_ASSET_MANIFEST.json"}
     for path in root.rglob("*"):
         if not path.is_file() or path.name in ignored or ".git" in path.parts:
             continue

@@ -1,8 +1,0 @@
-﻿failure,affected_database_contexts,meaning
-D0,4,domain absent
-D1,4,semantic mismatch
-D2,3,unit/reference mismatch
-D3,4,time-anchor mismatch
-D4,1,code/value-set mismatch
-D5,5,case-mix/site heterogeneity
-D6,3,license/access/engineering

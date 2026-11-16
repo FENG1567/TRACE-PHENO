@@ -1,0 +1,3 @@
+context,p0_status,p2_status,analysis_unit_denominator,p0_n,p2_n,p0_to_p2_retention,p0_excluded_after_p2,p2_outside_p0,nesting_check
+eICU,adapted,proxy,200859,667,484,0.7256371814092953,183,0,"aggregate decomposition: both=484, only P0=183, only P2=0"
+NWICU,direct,direct,61843,580,343,0.5913793103448276,237,0,constructive source-code definition: P2 = ap_any intersect enz_ge3; no separate row-level cross-tab in the staged artifact
