@@ -1,0 +1,63 @@
+{
+  "equivalent": true,
+  "scope": "complete binary three-domain inputs under frozen weights and threshold",
+  "truth_table": [
+    {
+      "pain": false,
+      "enzyme": false,
+      "imaging": false,
+      "P3": false,
+      "P4": false
+    },
+    {
+      "pain": false,
+      "enzyme": false,
+      "imaging": true,
+      "P3": false,
+      "P4": false
+    },
+    {
+      "pain": false,
+      "enzyme": true,
+      "imaging": false,
+      "P3": false,
+      "P4": false
+    },
+    {
+      "pain": false,
+      "enzyme": true,
+      "imaging": true,
+      "P3": true,
+      "P4": true
+    },
+    {
+      "pain": true,
+      "enzyme": false,
+      "imaging": false,
+      "P3": false,
+      "P4": false
+    },
+    {
+      "pain": true,
+      "enzyme": false,
+      "imaging": true,
+      "P3": true,
+      "P4": true
+    },
+    {
+      "pain": true,
+      "enzyme": true,
+      "imaging": false,
+      "P3": true,
+      "P4": true
+    },
+    {
+      "pain": true,
+      "enzyme": true,
+      "imaging": true,
+      "P3": true,
+      "P4": true
+    }
+  ],
+  "canonical_hash": "d4ab491d5fffdfa25ea7e0261eda45572d69a3b94c389ecf82ad16e8e24c6767"
+}
